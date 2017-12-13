@@ -20,6 +20,7 @@ class Test1 {
 
 	@RequestMapping("")
 	public String Test() {
+		System.out.println("hi");
 		return "index";
 	}
 }
